@@ -2,7 +2,8 @@
 
 int main(){
 
-    char x;
+    char * x;
+    printf("%p\n" , *x);
     printf("Berikan sebuah karakter : ");
     scanf("%c" , &x);
     if (x>=92 && x<=120)
